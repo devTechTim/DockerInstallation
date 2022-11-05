@@ -19,8 +19,16 @@ sudo mkdir -p /etc/apt/keyrings
   
   sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
   
-  sudo docker run hello-world
+ - Confirm successful installation
+ sudo docker run hello-world
 
 
 - Installation short cut
 apt install docker.io
+
+docker pull traefik
+:latest
+
+docker run nginx:latest
+
+docker run --detach --publish-all ngine:latest
